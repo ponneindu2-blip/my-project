@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body align="center">
+  <h1>Registration Form</h1>
+  <form action="/reg_student.js" target="_blank">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="enrollment">Enrollment No:</label>
+    <input type="number" id="enrollment" name="enrollment"><br><br>
+    <label for="email">College mail:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="bdate">Birthdate:</label>
+    <input type="date" id="bdate" name="bdate"> <br><br>
+    Select Gender : 
+    <input type="radio" id="male" name="Gender" value="M">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="Gender" value="F">
+    <label for="female">Female</label>  
+    <input type="radio" id="other" name="Gender" value="O">
+    <label for="other">Other</label> <br><br>
+    Select Courses : 
+    <input type="checkbox" id="" name="" value="">
+    <label for="">HTML</label>
+    <input type="checkbox" id="" name="" value="">
+    <label for="">CSS</label>
+    <input type="checkbox" id="" name="" value="">
+    <label for="">JavaScript</label> <br><br>
+    <label for="cars">Choose a College:</label>
+    <select name="College" id="college">
+      <option value="IIT">IIT</option>
+      <option value="NIT">NIT</option>
+      <option value="BITS">BITS</option>
+      <option value="VIT">VIT</option>
+      <option value="LD" selected>L.D.</option>
+    </select> <br><br>
+    Set Password: 
+    <input type="password"> <br><br>
+    <input type="submit"> <input type="reset">
+  </form>
+</body>
+</html>
